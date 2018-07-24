@@ -11,6 +11,7 @@
 
 ------
 This system is a hardware platform of the two-dimensional code access control system model based on cloud computing. By scanning the qr code, it can obtain the unlocked password, send the password to the cloud for verification, and realize the unlocked access control system Second task is to further develop the reservation management functions, the user to open the certification system, via the Internet, the cloud application unlock password, authenticated user information through the clouds, produce qr code data, host by scanning qr code for the lock information, and will unlock information reported to the cloud server, if the lock code verification is successful, the host and then send the lock to the cloud server records; If it fails, the prompt fails. After several failures, the host sends an alarm to the cloud server.
+
 ##Deployment instructions:
 > * 1.Execute the host machine code on the server to start the host machine;
 > * 2.cmd use ipconfig to query the IP address of the host, write it down, change the IP of the host machine's test.py to the current host IP address;
